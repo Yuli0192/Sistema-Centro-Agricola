@@ -1,0 +1,955 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LogicaNegocio
+</name>
+</assembly>
+<members>
+<member name="M:LogicaNegocio.ClsGestor.registrarProducto(System.Int32,System.String,System.Int32)">
+	<summary>
+ Método de la clase, encargada de registrar los datos de un producto.
+ </summary>
+	<param name="pnombre"></param>
+	<param name="punidad"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.modificarProducto(System.Int32,System.String,System.Int32)">
+	<summary>
+ Método de la clase, encargada de modificar los datos de un producto.
+ </summary>
+	<param name="pnombre"></param>
+	<param name="punidad"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.eliminarProducto(System.Int32)">
+	<summary>
+ Método de la clase, encargada de eliminar los datos de un producto.
+ </summary>
+	<param name="pcod"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.buscarProductoPorNombre(System.String)">
+	<summary>
+ Método de la clase encargada de buscar los datos de un producto 
+ </summary>
+	<param name="pnombre"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.listarProductos">
+	<summary>
+ Método de la clase encargada de buscar todos los productos 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.registrarSocio(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.Collections.ArrayList)">
+	<summary>
+ Método de la clase, encargada de registrar los datos de un socio.
+ </summary>
+	<param name="pcod"></param>
+	<param name="pcedula"></param>
+	<param name="pnombre"></param>
+	<param name="pdireccionFinca"></param>
+	<param name="pdireccionCasa"></param>
+	<param name="ptelefono"></param>
+	<param name="pcorreo"></param>
+	<param name="pfechaIngreso"></param>
+	<param name="pcodFerias"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.modificarSocio(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime)">
+	<summary>
+ Método de la clase, encargada de modificar los datos de un socio.
+ </summary>
+	<param name="pcod"></param>
+	<param name="pcedula"></param>
+	<param name="pnombre"></param>
+	<param name="pdireccionFinca"></param>
+	<param name="pdireccionCasa"></param>
+	<param name="ptelefono"></param>
+	<param name="pcorreo"></param>
+	<param name="pfechaIngreso"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.eliminarSocio(System.Int32)">
+	<summary>
+ Método de la clase, encargada de eliminar los datos de un socio.
+ </summary>
+	<param name="pcodigo"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.activarSocio(System.Int32)">
+	<summary>
+ Método de la clase, encargada de activar los datos de un socio.
+ </summary>
+	<param name="pcodigo"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.buscarCriterioSocio(System.String)">
+	<summary>
+ Método de la clase encargada de buscar los datos de un socio 
+ </summary>
+	<param name="pcriterio"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.buscarCriterioSocioInactivo(System.String)">
+	<summary>
+ Método de la clase encargada de buscar los datos de un socio que no este activo
+ </summary>
+	<param name="pcriterio"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.buscarSocioPorProducto(System.String)">
+	<summary>
+ Método de la clase encargada de buscar los datos de un socio por producto
+ </summary>
+	<param name="pproducto"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.listarSocios">
+	<summary>
+ Método de la clase encargada de buscar todos los socios 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.listarSociosInactivo">
+	<summary>
+ Método de la clase encargada de buscar todos los socios 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.registrarAuxiliar(System.Int32,System.String,System.String,System.String,System.String)">
+	<summary>
+ Método de la clase, encargada de registrar los datos de un auxiliar.
+ </summary>
+	<param name="pcod"></param>
+	<param name="pcedula"></param>
+	<param name="pnombre"></param>
+	<param name="ptelefono"></param>
+	<param name="pparentesco"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.modificarAuxiliar(System.Int32,System.String,System.String,System.String,System.String)">
+	<summary>
+ Método de la clase, encargada de modificar los datos de un auxiliar.
+ </summary>
+	<param name="pcod"></param>
+	<param name="pcedula"></param>
+	<param name="pnombre"></param>
+	<param name="ptelefono"></param>
+	<param name="pparentesco"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.eliminarAuxiliar(System.Int32)">
+	<summary>
+ Método de la clase, encargada de eliminar los datos de un auxiliar.
+ </summary>
+	<param name="pcod"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.ActivarAuxiliar(System.Int32)">
+	<summary>
+ Método de la clase, encargada de activar los datos de un auxiliar.
+ </summary>
+	<param name="pcod"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.buscarAuxiliarPorCriterio(System.String)">
+	<summary>
+ Método de la clase encargada de buscar los datos de un auxiliar 
+ </summary>
+	<param name="pcriterio"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.buscarAuxiliarPorCriterioInactivo(System.String)">
+	<summary>
+ Método de la clase encargada de buscar los datos de un auxiliar inactivo
+ </summary>
+	<param name="pcriterio"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.buscarAuxiliarPorProducto(System.String)">
+	<summary>
+ Método de la clase encargada de buscar los datos de un auxiliar por producto 
+ </summary>
+	<param name="pproducto"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.listarAuxiliares">
+	<summary>
+ Método de la clase encargada de buscar todos los auxiliares 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.listarAuxiliaresInactivo">
+	<summary>
+ Método de la clase encargada de buscar todos los auxiliares inactivos
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.registrarFeria(System.Int32,System.String)">
+	<summary>
+ Método de la clase, encargada de registrar los datos de una feria.
+ </summary>
+	<param name="pcod"></param>
+	<param name="pnombre"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.buscarFeriaPorNombre(System.String)">
+	<summary>
+ Método de la clase encargada de buscar los datos de una feria 
+ </summary>
+	<param name="pnombre"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.listarFerias">
+	<summary>
+ Método de la clase encargada de buscar todos las ferias 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.buscarFeriaPorSocio(System.Int32)">
+	<summary>
+ Método de la clase encargada de buscar las ferias que asiste el socio 
+ </summary>
+	<param name="pcodigo"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.buscarFeriaSinSocio(System.Int32)">
+	<summary>
+ Método de la clase encargada de buscar las ferias que no asiste el socio 
+ </summary>
+	<param name="pcodigo"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.eliminarFeriaSocio(System.Int32,System.Int32)">
+	<summary>
+ Método de la clase, encargada de eliminar una feria que asiste el socio.
+ </summary>
+	<param name="pcodFeria"></param>
+	<param name="pcodSocio"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.modificarFeriaSocio(System.Int32,System.Int32)">
+	<summary>
+ Método de la clase, encargada de agregar una feria que asiste el socio.
+ </summary>
+	<param name="pcodFeria"></param>
+	<param name="pcodSocio"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.obtenerMayorIdFeria">
+	<summary>
+ Funcion que se encarga de buscar el maximo id en la tabla de ferias en la base de datos.
+ </summary>
+	<returns>Maximo id</returns>
+</member><member name="M:LogicaNegocio.ClsGestor.registrarFinca(System.String,System.String,System.Int32)">
+	<summary>
+ Método de la clase, encargada de registrar los datos de una finca.
+ </summary>
+	<param name="pnombre"></param>
+	<param name="pdireccion"></param>
+	<param name="parea"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.asignarFincaSocio(System.Int32,System.Int32,System.String,System.String,System.DateTime,System.DateTime)">
+	<summary>
+ Método de la clase, encargada de asignar la finca al socio.
+ </summary>
+	<param name="pcodFinca"></param>
+	<param name="pcodSocio"></param>
+	<param name="pobservacion"></param>
+	<param name="ptipoContrato"></param>
+	<param name="pfechaContrato"></param>
+	<param name="pfechaVenceContrato"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.modificarFinca(System.Int32,System.String,System.String,System.Int32)">
+	<summary>
+ Método de la clase, encargada de modificar los datos de una finca.
+ </summary>
+	<param name="pcod"></param>
+	<param name="pnombre"></param>
+	<param name="pdireccion"></param>
+	<param name="parea"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.buscarFincaPorCriterio(System.String)">
+	<summary>
+ Método de la clase encargada de buscar todos los datos de la finca 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.listarFinca">
+	<summary>
+ Método de la clase encargada de buscar todos las finca 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.obtenerTotalAreaFinca">
+	<summary>
+ Funcion que se encarga de obtener el total del área de las fincas en la base de datos.
+ </summary>
+	<returns>Total área</returns>
+</member><member name="M:LogicaNegocio.ClsGestor.registrarPermiso(System.Int32,System.Int32,System.DateTime,System.DateTime,System.Collections.ArrayList)">
+	<summary>
+ Método de la clase, encargada de registrar los datos de un permiso.
+ </summary>
+	<param name="pcodPermiso"></param>
+	<param name="pcodSocio"></param>
+	<param name="pfechaCrea"></param>
+	<param name="pfechaVence"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.asignarPermisoAux(System.Int32,System.Int32)">
+	<summary>
+ Método de la clase, encargada de asignar un permiso al auxiliar.
+ </summary>
+	<param name="pcodPermiso"></param>
+	<param name="pcodAuxiliar"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.obtenerMayorIdPermiso">
+	<summary>
+ Funcion que se encarga de buscar el maximo id en la tabla de permiso en la base de datos.
+ </summary>
+	<returns>Maximo id</returns>
+</member><member name="M:LogicaNegocio.ClsGestor.buscarPermisoPorCriterio(System.Int32)">
+	<summary>
+ Método de la clase encargada de buscar los datos de un permiso
+ </summary>
+	<param name="pcriterio"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.listarPermisos">
+	<summary>
+ Método de la clase encargada de buscar todos los permisos 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.buscarPermisoVencidos">
+	<summary>
+ Método de la clase encargada de buscar los permisos vencidos 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.registrarInspeccion(System.Int32,System.DateTime,System.DateTime,System.Int32)">
+	<summary>
+ Método de la clase, encargada de registrar los datos de una inspeccion.
+ </summary>
+	<param name="pcodInsp"></param>
+	<param name="pcodSocio"></param>
+	<param name="pfechaCrea"></param>
+	<param name="pfechaVence"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.obtenerMayorIdInspeccion">
+	<summary>
+ Funcion que se encarga de buscar el maximo id en la tabla de inspeccion en la base de datos.
+ </summary>
+	<returns>Maximo id</returns>
+</member><member name="M:LogicaNegocio.ClsGestor.buscarCarnetVencidos">
+	<summary>
+ Método de la clase encargada de buscar los carnet vencidos 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.registrarCliente(System.String,System.String,System.String,System.String,System.DateTime,System.Int32,System.Int32)">
+	<summary>
+ Método de la clase, encargada de registrar los datos de un cliente.
+ </summary>
+	<param name="pcedula"></param>
+	<param name="pnombre"></param>
+	<param name="pdireccion"></param>
+	<param name="ptelefono"></param>
+	<param name="pfechaIngreso"></param>
+	<param name="psalarioBase"></param>
+	<param name="pcuota"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.modificarCliente(System.String,System.String,System.String,System.String,System.DateTime,System.Int32,System.Int32)">
+	<summary>
+ Metodo que modificar un cliente a la Base de datos
+ </summary>
+	<param name="pcedula"></param>
+	<param name="pnombre"></param>
+	<param name="pdireccion"></param>
+	<param name="ptelefono"></param>
+	<param name="pfechaIngreso"></param>
+	<param name="psalarioBase"></param>
+	<param name="pcuota"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.eliminarCliente(System.String)">
+	<summary>
+ Metodo que elimina un cliente a la Base de datos
+ </summary>
+	<param name="pcedula"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.activarCliente(System.String,System.Int32)">
+	<summary>
+ Método de la clase, encargada de activar los datos de un cliente.
+ </summary>
+	<param name="pcedula"></param>
+	<param name="pcantIngreso"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.buscarCriterioCliente(System.String)">
+	<summary>
+ Método de la clase encargada de buscar los datos de un cliente 
+ </summary>
+	<param name="pcriterio"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.buscarCriterioClienteInactivo(System.String)">
+	<summary>
+ Método de la clase encargada de buscar los datos de un cliente que no este activo
+ </summary>
+	<param name="pcriterio"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.listarClientes">
+	<summary>
+ Método de la clase encargada de buscar todos los clientes 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.listarClientesInactivo">
+	<summary>
+ Método de la clase encargada de buscar todos los socios 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.registrarOrden(System.String,System.String,System.Int32,System.DateTime,System.DateTime,System.Int32,System.String)">
+	<summary>
+ Método de la clase, encargada de registrar los datos de una orden.
+ </summary>
+	<param name="pcedulaCliente"></param>
+	<param name="pmes"></param>
+	<param name="panno"></param>
+	<param name="pfechaCrea"></param>
+	<param name="pfechaVence"></param>
+	<param name="pmonto"></param>
+	<param name="pestado"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.buscarOrdenesVencidas(System.String)">
+	<summary>
+ Método de la clase encargada de buscar los datos de una orden pendiente 
+ </summary>
+	<param name="pcriterio"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.modificarMulta(System.Int32)">
+	<summary>
+ Metodo que modifica la multa a la Base de datos
+ </summary>
+	<param name="pcod"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.obtenerMontoTotal(System.Int32)">
+	<summary>
+ Funcion que se encarga de obtener el monto total de la orden en la base de datos.
+ </summary>
+	<param name="pcod"></param>
+	<returns>Monto total</returns>
+</member><member name="M:LogicaNegocio.ClsGestor.cancelarOrden(System.Int32,System.DateTime,System.String)">
+	<summary>
+ Metodo que modifica el estado de la orden  a la Base de datos
+ </summary>
+	<param name="pcod"></param>
+	<param name="pfechaPago"></param>
+	<param name="pestado"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.registrarUsuario(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Metodo que registra un nuevo usuario a la Base de datos
+ </summary>
+	<param name="pcedula"></param>
+	<param name="pnombre"></param>
+	<param name="papellido1"></param>
+	<param name="papellido2"></param>
+	<param name="pcontrasenna"></param>
+	<param name="prol"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.modificarUsuario(System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Metodo que modifica los datos de un usuario a la Base de datos
+ </summary>
+	<param name="pcedula"></param>
+	<param name="pnombre"></param>
+	<param name="papellido1"></param>
+	<param name="papellido2"></param>
+	<param name="prol"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.eliminar(System.String)">
+	<summary>
+ Metodo que elimina un usuario a la Base de datos
+ </summary>
+	<param name="pcedula"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.buscarCriterioUsuario(System.String)">
+	<summary>
+ Método de la clase encargada de buscar los datos de un usuario 
+ </summary>
+	<param name="pcriterio"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.listarUsuario">
+	<summary>
+ Método de la clase encargada de buscar los datos de un usuario 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsGestor.iniciarSession(System.String,System.String)">
+	<summary>
+ iniciarSesion
+ </summary>
+	<param name="pnombre">
+	</param>
+	<param name="ppassword"></param>
+	<returns name="_listaPermisos">List(Of String())</returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsAuxiliarPersist.registrar(System.Int32,System.String,System.String,System.String,System.String)">
+	<summary>
+ Metodo que registra un nuevo auxiliar a la Base de datos
+ </summary>
+	<param name="pcod"></param>
+	<param name="pcedula"></param>
+	<param name="pnombre"></param>
+	<param name="ptelefono"></param>
+	<param name="pparentesco"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsAuxiliarPersist.modificar(System.Int32,System.String,System.String,System.String,System.String)">
+	<summary>
+ Metodo que modificar un auxiliar a la Base de datos
+ </summary>
+	<param name="pcod"></param>
+	<param name="pcedula"></param>
+	<param name="pnombre"></param>
+	<param name="ptelefono"></param>
+	<param name="pparentesco"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsAuxiliarPersist.eliminar(System.Int32)">
+	<summary>
+ Metodo que elimina un auxiliar a la Base de datos
+ </summary>
+	<param name="pcod"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsAuxiliarPersist.activar(System.Int32)">
+	<summary>
+ Metodo que activa un auxiliar a la Base de datos
+ </summary>
+	<param name="pcod"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsAuxiliarPersist.buscarPorCriterio(System.String)">
+	<summary>
+  Método de la clase encargada de buscar un registro de auxiliar a la base de datos 
+ </summary>
+	<param name="pcriterio"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsAuxiliarPersist.buscarPorCriterioInactivo(System.String)">
+	<summary>
+  Método de la clase encargada de buscar un registro de auxiliar inactivo a la base de datos 
+ </summary>
+	<param name="pcriterio"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsAuxiliarPersist.buscarPorProducto(System.String)">
+	<summary>
+  Método de la clase encargada de buscar un registro de auxiliar a la base de datos 
+ </summary>
+	<param name="pproducto"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsAuxiliarPersist.listar">
+	<summary>
+ Método de la clase encargada de buscar todos los auxiliares en la DB
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsAuxiliarPersist.listarInactivo">
+	<summary>
+ Método de la clase encargada de buscar todos los auxiliares inactivos en la DB
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsProductoPersist.registrar(System.Int32,System.String,System.Int32)">
+	<summary>
+ Metodo que registra un nuevo producto a la Base de datos
+ </summary>
+	<param name="pnombre"></param>
+	<param name="punidad"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsProductoPersist.modificar(System.Int32,System.String,System.Int32)">
+	<summary>
+ Metodo que modificar un producto a la Base de datos
+ </summary>
+	<param name="pnombre"></param>
+	<param name="punidad"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsProductoPersist.eliminar(System.Int32)">
+	<summary>
+ Metodo que elimina un producto a la Base de datos
+ </summary>
+	<param name="pcod"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsProductoPersist.buscarPorNombre(System.String)">
+	<summary>
+  Método de la clase encargada de buscar un registro de producto a la base de datos 
+ </summary>
+	<param name="pnombre"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsProductoPersist.listar">
+	<summary>
+ Método de la clase encargada de buscar todos los productos en la DB
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsSocioPersist.registrar(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.Collections.ArrayList)">
+	<summary>
+ Metodo que registra un nuevo socio a la Base de datos
+ </summary>
+	<param name="pcod"></param>
+	<param name="pcedula"></param>
+	<param name="pnombre"></param>
+	<param name="pdireccionFinca"></param>
+	<param name="pdireccionCasa"></param>
+	<param name="ptelefono"></param>
+	<param name="pcorreo"></param>
+	<param name="pfechaIngreso"></param>
+	<param name="pcodFerias"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsSocioPersist.agregarFeriaSocio(System.Int32,System.Int32)">
+	<summary>
+ Metodo que asigna una feria que asiste el socio a la Base de datos
+ </summary>
+	<param name="pcodSocio"></param>
+	<param name="pcodFeria"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsSocioPersist.modificar(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime)">
+	<summary>
+ Metodo que modificar un socio a la Base de datos
+ </summary>
+	<param name="pcod"></param>
+	<param name="pcedula"></param>
+	<param name="pnombre"></param>
+	<param name="pdireccionFinca"></param>
+	<param name="pdireccionCasa"></param>
+	<param name="ptelefono"></param>
+	<param name="pcorreo"></param>
+	<param name="pfechaIngreso"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsSocioPersist.eliminar(System.Int32)">
+	<summary>
+ Metodo que elimina un socio a la Base de datos
+ </summary>
+	<param name="pcodigo"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsSocioPersist.activar(System.Int32)">
+	<summary>
+ Metodo que activa un socio a la Base de datos
+ </summary>
+	<param name="pcodigo"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsSocioPersist.buscarPorCriterio(System.String)">
+	<summary>
+ Método de la clase encargada de buscar un registro de socio a la DB
+ </summary>
+	<param name="pcriterio"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsSocioPersist.buscarPorCriterioInactivo(System.String)">
+	<summary>
+ Método de la clase encargada de buscar un registro de socio a la DB
+ </summary>
+	<param name="pcriterio"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsSocioPersist.buscarPorProducto(System.String)">
+	<summary>
+ Método de la clase encargada de buscar un registro de socio por medio del producto a la DB
+ </summary>
+	<param name="pproducto"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsSocioPersist.listar">
+	<summary>
+ Método de la clase encargada de buscar todos los socios en la DB
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsSocioPersist.listarInactivo">
+	<summary>
+ Método de la clase encargada de buscar todos los socios en la DB
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsClientePersist.registrar(System.String,System.String,System.String,System.String,System.DateTime,System.Int32,System.Int32)">
+	<summary>
+ Metodo que registra un nuevo cliente a la Base de datos
+ </summary>
+	<param name="pcedula"></param>
+	<param name="pnombre"></param>
+	<param name="pdireccion"></param>
+	<param name="ptelefono"></param>
+	<param name="pfechaIngreso"></param>
+	<param name="psalarioBase"></param>
+	<param name="pcuota"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsClientePersist.modificar(System.String,System.String,System.String,System.String,System.DateTime,System.Int32,System.Int32)">
+	<summary>
+ Metodo que modificar un cliente a la Base de datos
+ </summary>
+	<param name="pcedula"></param>
+	<param name="pnombre"></param>
+	<param name="pdireccion"></param>
+	<param name="ptelefono"></param>
+	<param name="pfechaIngreso"></param>
+	<param name="psalarioBase"></param>
+	<param name="pcuota"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsClientePersist.eliminar(System.String)">
+	<summary>
+ Metodo que elimina un cliente a la Base de datos
+ </summary>
+	<param name="pcedula"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsClientePersist.activar(System.String,System.Int32)">
+	<summary>
+ Metodo que activa un cliente a la Base de datos
+ </summary>
+	<param name="pcedula"></param>
+	<param name="pcantIngreso"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsClientePersist.buscarPorCriterio(System.String)">
+	<summary>
+ Método de la clase encargada de buscar un registro de cliente a la DB
+ </summary>
+	<param name="pcriterio"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsClientePersist.buscarPorCriterioInactivo(System.String)">
+	<summary>
+ Método de la clase encargada de buscar un registro de cliente a la DB
+ </summary>
+	<param name="pcriterio"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsClientePersist.listar">
+	<summary>
+ Método de la clase encargada de buscar todos los cliente en la DB
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsClientePersist.listarInactivo">
+	<summary>
+ Método de la clase encargada de buscar todos los clientes en la DB
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsFincaPersist.registrar(System.String,System.String,System.Int32)">
+	<summary>
+ Método de la clase, encargada de registrar los datos de una finca.
+ </summary>
+	<param name="pnombre"></param>
+	<param name="pdireccion"></param>
+	<param name="parea"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsFincaPersist.asignarFincaSocio(System.Int32,System.Int32,System.String,System.String,System.DateTime,System.DateTime)">
+	<summary>
+ Método de la clase, encargada de asignar la finca al socio.
+ </summary>
+	<param name="pcodFinca"></param>
+	<param name="pcodSocio"></param>
+	<param name="pobservacion"></param>
+	<param name="ptipoContrato"></param>
+	<param name="pfechaContrato"></param>
+	<param name="pfechaVenceContrato"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsFincaPersist.modificar(System.Int32,System.String,System.String,System.Int32)">
+	<summary>
+ Método de la clase, encargada de modificar los datos de una finca.
+ </summary>
+	<param name="pcod"></param>
+	<param name="pnombre"></param>
+	<param name="pdireccion"></param>
+	<param name="parea"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsFincaPersist.buscarPorCriterio(System.String)">
+	<summary>
+  Método de la clase encargada de buscar un registro de una finca a la base de datos 
+ </summary>
+	<param name="pcriterio"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsFincaPersist.listar">
+	<summary>
+  Método de la clase encargada de buscar un registro de una finca a la base de datos 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsFincaPersist.obtenerTotalArea">
+	<summary>
+ Funcion que se encarga de obtener el total del área en la base de datos.
+ </summary>
+	<returns>Total área</returns>
+</member><member name="M:LogicaNegocio.ClsInspeccionPersist.registrar(System.Int32,System.DateTime,System.DateTime,System.Int32)">
+	<summary>
+ Método de la clase, encargada de registrar los datos de una inspeccion.
+ </summary>
+	<param name="pcodInsp"></param>
+	<param name="pcodSocio"></param>
+	<param name="pfechaCrea"></param>
+	<param name="pfechaVence"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsInspeccionPersist.obtenerMayorIdInspeccion">
+	<summary>
+ Funcion que se encarga de buscar el maximo id en la tabla de inspeccion en la base de datos.
+ </summary>
+	<returns>Maximo id</returns>
+</member><member name="M:LogicaNegocio.ClsInspeccionPersist.buscarCarnetVencido">
+	<summary>
+ Método de la clase encargada de buscar los carnet vencidos a la DB
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsFeriaPersist.registrar(System.Int32,System.String)">
+	<summary>
+ Metodo que registra una nueva feria a la Base de datos
+ </summary>
+	<param name="pcod"></param>
+	<param name="pnombre"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsFeriaPersist.buscarPorNombre(System.String)">
+	<summary>
+  Método de la clase encargada de buscar un registro de feria a la base de datos 
+ </summary>
+	<param name="pnombre"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsFeriaPersist.listar">
+	<summary>
+ Método de la clase encargada de buscar todos los productos en la DB
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsFeriaPersist.buscarFeriaPorSocio(System.Int32)">
+	<summary>
+ Método de la clase encargada de buscar todos las ferias que asiste el socio en la DB
+ </summary>
+	<param name="pcodigo"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsFeriaPersist.buscarFeriaSinSocio(System.String)">
+	<summary>
+ Método de la clase encargada de buscar todos las ferias que no asiste el socio en la DB
+ </summary>
+	<param name="pcedula"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsFeriaPersist.eliminarFeriaSocio(System.Int32,System.Int32)">
+	<summary>
+ Metodo que elimina una feria que asiste el socio a la Base de datos
+ </summary>
+	<param name="pcodFeria"></param>
+	<param name="pcodSocio"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsFeriaPersist.agregarFeriaSocio(System.Int32,System.Int32)">
+	<summary>
+ Metodo que agrega una feria que asiste el socio a la Base de datos
+ </summary>
+	<param name="pcodFeria"></param>
+	<param name="pcodSocio"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsFeriaPersist.obtenerMayorIdFeria">
+	<summary>
+ Funcion que se encarga de buscar el maximo id en la tabla de ferias en la base de datos.
+ </summary>
+	<returns>Maximo id</returns>
+</member><member name="M:LogicaNegocio.ClsOrdenPersist.registrar(System.String,System.String,System.Int32,System.DateTime,System.DateTime,System.Int32,System.String)">
+	<summary>
+ Metodo que registra una nueva orden a la Base de datos
+ </summary>
+	<param name="pcedulaCliente"></param>
+	<param name="pmes"></param>
+	<param name="panno"></param>
+	<param name="pfechaCrea"></param>
+	<param name="pfechaVence"></param>
+	<param name="pmonto"></param>
+	<param name="pestado"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsOrdenPersist.buscarOrdenesPendiente(System.String)">
+	<summary>
+ Método de la clase encargada de buscar un registro de ordenes pendientes a la DB
+ </summary>
+	<param name="pcriterio"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsOrdenPersist.modificarMulta(System.Int32)">
+	<summary>
+ Metodo que modifica la multa a la Base de datos
+ </summary>
+	<param name="pcod"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsOrdenPersist.obtenerMontoTotal(System.Int32)">
+	<summary>
+ Funcion que se encarga de obtener el monto total de la orden en la base de datos.
+ </summary>
+	<param name="pcod"></param>
+	<returns>Monto total</returns>
+</member><member name="M:LogicaNegocio.ClsOrdenPersist.cancelarOrden(System.Int32,System.DateTime,System.String)">
+	<summary>
+ Metodo que modifica el estado de la orden  a la Base de datos
+ </summary>
+	<param name="pcod"></param>
+	<param name="pfechaPago"></param>
+	<param name="pestado"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsPermisoPersist.registrar(System.Int32,System.Int32,System.DateTime,System.DateTime,System.Collections.ArrayList)">
+	<summary>
+ Método de la clase, encargada de registrar los datos de un permiso.
+ </summary>
+	<param name="pcodPermiso"></param>
+	<param name="pcodSocio"></param>
+	<param name="pfechaCrea"></param>
+	<param name="pfechaVence"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsPermisoPersist.asignarProducto(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Metodo que asigna productos al socio a la Base de datos
+ </summary>
+	<param name="pcodSocio"></param>
+	<param name="pcodProducto"></param>
+	<param name="pcodPermiso"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsPermisoPersist.obtenerMayorIdPermiso">
+	<summary>
+ Funcion que se encarga de buscar el maximo id en la tabla de permiso en la base de datos.
+ </summary>
+	<returns>Maximo id</returns>
+</member><member name="M:LogicaNegocio.ClsPermisoPersist.asignarPermisoAux(System.Int32,System.Int32)">
+	<summary>
+ Método de la clase, encargada de asignar un permiso al auxiliar.
+ </summary>
+	<param name="pcodPermiso"></param>
+	<param name="pcodAuxiliar"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsPermisoPersist.buscarPorCriterio(System.Int32)">
+	<summary>
+  Método de la clase encargada de buscar un registro de un permiso a la base de datos 
+ </summary>
+	<param name="pcriterio"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsPermisoPersist.listar">
+	<summary>
+  Método de la clase encargada de buscar todos los permiso a la base de datos 
+ </summary>
+	<returns>listaPermisos</returns>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsPermisoPersist.buscarPermisoVencido">
+	<summary>
+ Método de la clase encargada de buscar los permisos vencidos a la DB
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsUsuarioPersist.registrar(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Metodo que registra un nuevo usuario a la Base de datos
+ </summary>
+	<param name="pcedula"></param>
+	<param name="pnombre"></param>
+	<param name="papellido1"></param>
+	<param name="papellido2"></param>
+	<param name="pcontrasenna"></param>
+	<param name="prol"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsUsuarioPersist.modificar(System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Metodo que modifica los datos de un usuario a la Base de datos
+ </summary>
+	<param name="pcedula"></param>
+	<param name="pnombre"></param>
+	<param name="papellido1"></param>
+	<param name="papellido2"></param>
+	<param name="prol"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsUsuarioPersist.eliminar(System.String)">
+	<summary>
+ Metodo que elimina un usuario a la Base de datos
+ </summary>
+	<param name="pcedula"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsUsuarioPersist.buscarPorCriterio(System.String)">
+	<summary>
+ Método de la clase encargada de buscar un registro de un usuario a la DB
+ </summary>
+	<param name="pcriterio"></param>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsUsuarioPersist.listar">
+	<summary>
+ Método de la clase encargada de buscar un registro de un usuario a la DB
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LogicaNegocio.ClsUsuarioPersist.buscarPorNombreContrasenna(System.String,System.String)">
+	<summary>
+ Método de la clase encargada de buscar un registro de un usuario a la DB
+ </summary>
+	<param name="pnombre"></param>
+	<param name="pcontrasenna"></param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

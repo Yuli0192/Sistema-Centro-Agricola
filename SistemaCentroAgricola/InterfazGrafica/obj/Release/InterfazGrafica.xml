@@ -1,0 +1,888 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+InterfazGrafica
+</name>
+</assembly>
+<members>
+<member name="M:InterfazGrafica.ctlBuscarClienteInactivo.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarClienteInactivo.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarClienteInactivo.cargarClientes">
+	<summary>
+ Método de clase, encargado de cargar los clientes existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarClienteInactivo.buscarCriterioCliente(System.String)">
+	<summary>
+ Método de clase, encargado de cargar el cliente existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlCancelarOrden.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlCancelarOrden.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlCancelarOrden.nombrarColumnasOrden">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlCancelarOrden.invisibleOrden">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlCancelarOrden.cargarClientes">
+	<summary>
+ Método de clase, encargado de cargar los clientes existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlCancelarOrden.buscarCriterioCliente(System.String)">
+	<summary>
+ Método de clase, encargado de cargar el cliente existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlCancelarOrden.cargarMesesPendiente(System.String)">
+	<summary>
+ Método de clase, encargado de cargar los meses existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlCancelarOrden.cargarMesesCancelados(System.String)">
+	<summary>
+ Método de clase, encargado de cargar los meses existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.PopupRegistrarFeriaAux.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarProducto.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarProducto.evaluarChecked">
+	<summary>
+ Método de clase, encarga de evaluar cual radio esta checked
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarProducto.limpiarForm">
+	<summary>
+ Método de clase, encarga de limpiar los componentes 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarProducto.pbLimpiar_Click(System.Object,System.EventArgs)">
+	<summary>
+ Método de clase, encarga de limpiar los componentes 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarProducto.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarProducto.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarProducto.buscarProductoPorNombre(System.String)">
+	<summary>
+ Método de clase, encargado de cargar los productos existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarProducto.cargarProductos">
+	<summary>
+ Método de clase, encargado de cargar los productos existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="P:InterfazGrafica.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:InterfazGrafica.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:InterfazGrafica.My.Resources.Resources.LOGO_CENTRO_AGRICOLA_CANTONAL_DE_PARAISO_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:InterfazGrafica.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:InterfazGrafica.ctlAsignarPermisoAux.evaluarnumero">
+	<summary>
+ Método de clase, encarga de evaluar que tenga el formato correcto
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlAsignarPermisoAux.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlAsignarPermisoAux.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlAsignarPermisoAux.cargarPermisos">
+	<summary>
+ Método de clase, encargado de cargar los permisos existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlAsignarPermisoAux.buscarCriterioPermiso(System.Int32)">
+	<summary>
+ Método de clase, encargado de cargar el permiso existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlAsignarPermisoAux.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarFinca.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarFinca.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarFinca.cargarFincas">
+	<summary>
+ Método de clase, encargado de cargar las fincas existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarFinca.buscarFincaPorCriterio(System.String)">
+	<summary>
+ Método de clase, encargado de cargar la finca existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarFinca.visibleControl">
+	<summary>
+ Método d clase, encargado de hacer visible componentes
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarFinca.QuitarControles">
+	<summary>
+ Método d clase, encargado de hacer invisible componentes
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarFinca.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarFinca.modificar(System.Int32,System.String,System.String,System.Int32)">
+	<summary>
+ Método de clase, encarga de asignarle los valores a cada componente
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarPermisoAuxPendiente.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarPermisoAuxPendiente.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarPermisoAuxPendiente.cargarPermisos">
+	<summary>
+ Método de clase, encargado de cargar los permisos existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarPermisoAuxPendiente.buscarCriterioPermiso(System.String)">
+	<summary>
+ Método de clase, encargado de cargar el permiso existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarPermisoAuxPendiente.cargarProductoSocio">
+	<summary>
+ Método de clase, encargado de cargar las productos que asiste el socio existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarPermisoSocioPendiente.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarPermisoSocioPendiente.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarPermisoSocioPendiente.cargarPermisos">
+	<summary>
+ Método de clase, encargado de cargar los permisos existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarPermisoSocioPendiente.buscarCriterioPermiso(System.String)">
+	<summary>
+ Método de clase, encargado de cargar el permiso existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarPermisoSocioPendiente.cargarProductoSocio">
+	<summary>
+ Método de clase, encargado de cargar las productos que asiste el socio existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlInspeccionSemanal.evaluarEspacio">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningun componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlListadoSocioProducto.cargarProductos">
+	<summary>
+ Método de clase, encargado de cargar los productos existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlListarInscripcion.evaluarEspacio">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningun componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlFactura.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarUsuario.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarPermiso.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarPermiso.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarPermiso.cargarProductos">
+	<summary>
+ Método de clase, encargado de cargar los productos existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarPermiso.cargarSocios">
+	<summary>
+ Método de clase, encargado de cargar los socios existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarPermiso.buscarCriterioSocio(System.String)">
+	<summary>
+ Método de clase, encargado de cargar el socio existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarPermiso.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarPermiso.buscarProductoPorNombre(System.String)">
+	<summary>
+ Método de clase, encargado de cargar los productos existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarAuxiliarInactivo.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarAuxiliarInactivo.cargarAuxiliares">
+	<summary>
+ Método de clase, encargado de cargar los auxiliares existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarAuxiliarInactivo.buscarAuxiliarPorCriterio(System.String)">
+	<summary>
+ Método de clase, encargado de cargar el auxiliar existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarClienteActivo.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarClienteActivo.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarClienteActivo.cargarClientes">
+	<summary>
+ Método de clase, encargado de cargar los clientes existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarClienteActivo.buscarCriterioCliente(System.String)">
+	<summary>
+ Método de clase, encargado de cargar el cliente existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarClienteActivo.visibleControl">
+	<summary>
+ Método d clase, encargado de hacer visible componentes
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarClienteActivo.QuitarControles">
+	<summary>
+ Método d clase, encargado de hacer invisible componentes
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarClienteActivo.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarClienteActivo.modificar(System.String,System.String,System.String,System.String,System.DateTime)">
+	<summary>
+ Método de clase, encarga de asignarle los valores a cada componente
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlCarnetVencido.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlCarnetVencido.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlCarnetVencido.cargarSocios">
+	<summary>
+ Método de clase, encargado de cargar los socios existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarAuxiliar.cargarFerias">
+	<summary>
+ Método de clase, encargado de cargar todos las ferias existentes en la DB
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarAuxiliar.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarAuxiliar.buscarFeriaPorNombre(System.String)">
+	<summary>
+ Método de clase, encargado de cargar las ferias existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlOrdenPendiente.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlOrdenPendiente.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlOrdenPendiente.cargarOrdenes">
+	<summary>
+ Método de clase, encargado de cargar las ordenes canceladas existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlOrdenPendiente.buscarCriterioOrden(System.String)">
+	<summary>
+ Método de clase, encargado de cargar las ordenes canceladas existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarInspeccion.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarInspeccion.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarInspeccion.cargarSocios">
+	<summary>
+ Método de clase, encargado de cargar los socios existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarInspeccion.buscarCriterioSocio(System.String)">
+	<summary>
+ Método de clase, encargado de cargar el socio existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarInspeccion.cargarFeriaSocio">
+	<summary>
+ Método de clase, encargado de cargar las ferias que asiste el socio existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarInspeccion.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarSocio.cargarFerias">
+	<summary>
+ Método de clase, encargado de cargar todos las ferias existentes en la DB
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarSocio.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarSocio.buscarFeriaPorNombre(System.String)">
+	<summary>
+ Método de clase, encargado de cargar las ferias existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlListadoOrdenesPendientes.evaluarEspacio">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningun componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarFinca.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarPermisoAux.nombrarColumnasSocio">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarPermisoAux.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarPermisoAux.cargarSocios">
+	<summary>
+ Método de clase, encargado de cargar los socios existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarPermisoAux.buscarCriterioSocio(System.String)">
+	<summary>
+ Método de clase, encargado de cargar el socio existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarPermisoAux.cargarAuxiliares">
+	<summary>
+ Método de clase, encargado de cargar los auxiliares existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarPermisoAux.buscarAuxiliarPorCriterio(System.String)">
+	<summary>
+ Método de clase, encargado de cargar el auxiliar existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarPermisoAux.cargarProductos">
+	<summary>
+ Método de clase, encargado de cargar los productos existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarPermisoAux.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarPermisoAux.buscarProductoPorNombre(System.String)">
+	<summary>
+ Método de clase, encargado de cargar los productos existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarFeria.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarFeria.limpiarForm">
+	<summary>
+ Método de clase, encarga de limpiar los componentes 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarFeria.pbLimpiar_Click(System.Object,System.EventArgs)">
+	<summary>
+ Método de clase, encarga de limpiar los componentes 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarFeria.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarFeria.buscarFeriaPorNombre(System.String)">
+	<summary>
+ Método de clase, encargado de cargar las ferias existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarFeria.cargarFerias">
+	<summary>
+ Método de clase, encargado de cargar las ferias existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlAsignarFincaSocio.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlAsignarFincaSocio.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlAsignarFincaSocio.cargarSocios">
+	<summary>
+ Método de clase, encargado de cargar los socios existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlAsignarFincaSocio.buscarCriterioSocio(System.String)">
+	<summary>
+ Método de clase, encargado de cargar el socio existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlAsignarFincaSocio.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarSocioInactivo.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarSocioInactivo.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarSocioInactivo.cargarSocios">
+	<summary>
+ Método de clase, encargado de cargar los socios existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarSocioInactivo.buscarCriterioSocio(System.String)">
+	<summary>
+ Método de clase, encargado de cargar el socio existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlInspeccionMes.evaluarEspacio">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningun componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlPermisoSemanal.evaluarEspacio">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningun componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarAuxProducto.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarAuxProducto.cargarAuxiliares">
+	<summary>
+ Método de clase, encargado de cargar los auxiliares existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarAuxProducto.buscarAuxiliarPorProducto(System.String)">
+	<summary>
+ Método de clase, encargado de cargar el auxiliar existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarInspeccion.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarInspeccion.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarInspeccion.cargarInspeccion">
+	<summary>
+ Método de clase, encargado de cargar los permisos existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarInspeccion.buscarCriterioInspeccion(System.String)">
+	<summary>
+ Método de clase, encargado de cargar el permiso existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.PopupRegistrarFeria.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarOrdenCancelada.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarOrdenCancelada.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarOrdenCancelada.cargarOrdenes">
+	<summary>
+ Método de clase, encargado de cargar las ordenes canceladas existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarOrdenCancelada.buscarCriterioOrden(System.String)">
+	<summary>
+ Método de clase, encargado de cargar las ordenes canceladas existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlListadoOrdenesCanceladas.evaluarEspacio">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningun componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarCliente.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarSocioProducto.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarSocioProducto.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarSocioProducto.cargarSocios">
+	<summary>
+ Método de clase, encargado de cargar los socios existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarSocioProducto.buscarSocioProducto(System.String)">
+	<summary>
+ Método de clase, encargado de cargar el socio existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlListadoAuxProducto.cargarProductos">
+	<summary>
+ Método de clase, encargado de cargar los productos existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.OrdenMes.evaluarEspacio">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningun componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarAuxiliar.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarAuxiliar.cargarAuxiliares">
+	<summary>
+ Método de clase, encargado de cargar los auxiliares existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarAuxiliar.buscarAuxiliarPorCriterio(System.String)">
+	<summary>
+ Método de clase, encargado de cargar el auxiliar existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarAuxiliar.visibleControl">
+	<summary>
+ Método d clase, encargado de hacer visible componentes
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarAuxiliar.QuitarControles">
+	<summary>
+ Método d clase, encargado de hacer invisible componentes
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarAuxiliar.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarAuxiliar.modificar(System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Método de clase, encarga de asignarle los valores a cada componente
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarAuxiliar.cargarFeriaAux">
+	<summary>
+ Método de clase, encargado de cargar las ferias que asiste el socio existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarAuxiliar.cargarFeriaSinAsignarAux">
+	<summary>
+ Método de clase, encargado de cargar las ferias que no asiste el socio existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarAuxiliar.buscarFeriaPorNombre(System.String)">
+	<summary>
+ Método de clase, encargado de cargar las ferias existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarSocio.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarSocio.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarSocio.cargarSocios">
+	<summary>
+ Método de clase, encargado de cargar los socios existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarSocio.buscarCriterioSocio(System.String)">
+	<summary>
+ Método de clase, encargado de cargar el socio existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarSocio.cargarFeriaSocio">
+	<summary>
+ Método de clase, encargado de cargar las ferias que asiste el socio existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarSocio.cargarFeriaSinAsignarSocio">
+	<summary>
+ Método de clase, encargado de cargar las ferias que no asiste el socio existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarSocio.visibleControl">
+	<summary>
+ Método d clase, encargado de hacer visible componentes
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarSocio.QuitarControles">
+	<summary>
+ Método d clase, encargado de hacer invisible componentes
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarSocio.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarSocio.modificar(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime)">
+	<summary>
+ Método de clase, encarga de asignarle los valores a cada componente
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlBuscarSocio.buscarFeriaPorNombre(System.String)">
+	<summary>
+ Método de clase, encargado de cargar las ferias existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlListadoReciboOrden.evaluarEspacio">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningun componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlListarReciboDiario.evaluarEspacio">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningun componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlPermisoVencido.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlPermisoVencido.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlPermisoVencido.cargarSocios">
+	<summary>
+ Método de clase, encargado de cargar los socios existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarOrden.nombrarColumnas">
+	<summary>
+ Método de clase, encarga de renombrar los encabezados al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarOrden.invisible">
+	<summary>
+ Método de clase, encarga de poner invisible algunas calumnas al datagridview
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarOrden.cargarClientes">
+	<summary>
+ Método de clase, encargado de cargar los clientes existentes en la DB con el nombre suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarOrden.buscarCriterioCliente(System.String)">
+	<summary>
+ Método de clase, encargado de cargar el cliente existente en la DB con el id suministado
+ </summary>
+	<remarks></remarks>
+</member><member name="M:InterfazGrafica.ctlRegistrarOrden.evaluarEspacion">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
